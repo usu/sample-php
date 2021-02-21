@@ -2,10 +2,15 @@
     "name": "digitalocean-apps/sample-php",
     "description": "Sample PHP application for App Platform",
     "type": "project",
+    "config": {
+        "platform": {
+            "php": "7.1.33"
+        }
+    },
     "require": {
         "alrik11es/cowsayphp": "^1.2",
         "ext-gd": "*",
-        "php": "~7.0.0"
+        "php": "~7.1.0"
     },
     "authors": [
         {
